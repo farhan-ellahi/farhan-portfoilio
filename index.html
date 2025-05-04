@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farhan Ellahi – Graphic Designer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <header class="navbar">
+    <div class="nav-container">
+      <img src="pic 3.png" alt="">
+
+      <div class="logo">
+        <span class="name">Muhammad Farhan Ellahi</span>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#portfolio">Work</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+        <a href="#footer">Hire Me</a>
+        <button class="toggle-theme" id="themeToggle">🌙</button>
+      </nav>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+  </header>
+  <!-- Navbar End -->
+
+  <!-- Header / Hero Section -->
+  <header class="hero">
+    <div class="container hero-content">
+      <div class="intro-text">
+        <h1>Hello, I'm <span>Farhan Ellahi </span></h1>
+        <p>Graphic Designer</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary">Hire Me</a>
+          <a href="resume.pdf" class="btn secondary">See My Resume</a>
+        </div>
+        <div class="social-icons">
+          <!-- <a href="#"><img src="icons/behance.svg" alt="Behance"></a> -->
+          <!-- <a href="#"><img src="icons/dribbble.svg" alt="Dribbble"></a> -->
+          <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+          <a href="#"><img src="facebook.png" alt="Facebook"></a>
+          <!-- <a href="#"><img src="#"><img src="icons/twitter.svg" alt="Twitter"></a> -->
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="pic 2.png" alt="Sania Saher">
+      </div>
+    </div>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="filters">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Posts</button>
+        <button class="filter-btn">Cards</button>
+        <button class="filter-btn">Banners</button>
+        <button class="filter-btn">Thumbnails</button>
+
+      </div>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-grid">
+          <div class="portfolio-card" data-category="Posts">
+            <img src="project1.jpg" alt="Project 1" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Post Design</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-category="Banners">
+            <img src="project2.jpg" alt="Project 2" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Banner</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-category="Banners">
+            <img src="project3.jpg" alt="Project 3" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Banner</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-category="Banners">
+            <img src="project4.jpg" alt="Project 4" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Banner</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+
+
+          <div class="portfolio-card" data-category="Posts">
+            <img src="project5.jpg" alt="Project 5" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Post Design</p>
+              <p class="year">2024</p>
+            </div>
+
+
+          </div>
+          <div class="portfolio-card" data-category="Posts">
+            <img src="project6.jpg" alt="Project 6" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Post Design</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-category="Posts">
+            <img src="project7.jpg" alt="Project 7" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Post Design</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-category="Cards">
+            <img src="project8.jpg" alt="Project 8" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Buisness Card</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="Cards">
+            <img src="project9.jpg" alt="Project 9" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Buisness Card</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="Banners">
+            <img src="project10.jpg" alt="Project 10" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Banner</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="Posts">
+            <img src="project11.jpg" alt="Project 11" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Post Design</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="Thumbnails">
+            <img src="project12.jpg" alt="Project 12" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Thumbnail</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="Thumbnails">
+            <img src="project13.jpg" alt="Project 13" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Thumbnail</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="Posts">
+            <img src="project14.jpg" alt="Project 14" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">Post Design</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="Posts"> >
+            <img src="project15.jpg" alt="Project 15" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">
+                Post Design</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+          <div class="portfolio-card " data-category="Cards">
+            <img src="project16.jpg" alt="Project 16" onclick="openLightbox(this.src)">
+            <div class="card-content">
+              <p class="category">
+                Buisness Card</p>
+              <p class="year">2024</p>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Lightbox Modal -->
+          <div id="lightboxModal" class="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <img class="lightbox-content" id="lightboxImage">
+          </div>
+
+
+          <script>
+            function openLightbox(src) {
+              const modal = document.getElementById("lightboxModal");
+              const img = document.getElementById("lightboxImage");
+              img.src = src;
+              modal.style.display = "block";
+            }
+
+            function closeLightbox() {
+              document.getElementById("lightboxModal").style.display = "none";
+            }
+
+            window.onclick = function (event) {
+              const modal = document.getElementById("lightboxModal");
+              if (event.target === modal) {
+                modal.style.display = "none";
+              }
+            }
+          </script>
+
+          <!-- Lightbox Modal -->
+
+
+        </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about" id="about">
+    <div class="container about-content">
+      <div class="about-image">
+        <img src="pic 1.png" alt="Farhan Ellahi" />
+      </div>
+      <div class="about-text">
+        <h2>Who Am I</h2>
+        <p>I’m a passionate Graphic Designer specializing in modern visual design, branding, and digital graphics. I
+          work with tools like Adobe Photoshop, Illustrator, and Figma to create stunning visuals that make an impact.
+        </p>
+        <div class="about-buttons">
+          <a href="#contact" class="btn primary">Hire Me</a>
+          <a href="Farhan Ellahi CV.pdf" class="btn secondary">See My Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Contact Me Section -->
+<section class="contact" id="contact">
+  <div class="container contact-content">
+
+    <div class="contact-text">
+      <h2>Get in Touch</h2>
+      <p>Feel free to reach out to me for any design-related inquiries or collaborations.</p>
+      <div class="contact-info">
+        <p>Email: <a href="farhanellahi1122@gmail.com">farhanellahi1122@gmail.com</a></p>
+        <p>Phone: <a href="tel:+923438151699">+923438151699</a></p>
+        <p>Address: <a href="https://www.google.com/maps/place/Dera Ismail Khan">Dera Ismail Khan</a></p>
+      </div>
+      <div class="contact-form">
+        <form>
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+   <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <p>© 2025 Farhan Ellahi. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        <!-- Add more icons if needed -->
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
